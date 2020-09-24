@@ -39,7 +39,7 @@ function UserApi() {
         <input
           type="text"
           placeholder="Enter your Github username"
-          style={{ padding: 12, width: 400, height: 30, fontSize: 20 }}
+          style={{ padding: 12, width: 300, height: 30, fontSize: 20 }}
           onChange={handleChange}
         ></input>
         <button style={{ padding: 15, fontSize: 20 }}>Submit</button>
