@@ -11,3 +11,145 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.ak-header-main-div{
+    width: 100%;
+    height: auto;
+    background: black;
+}
+.ak-header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0);
+    position: relative;
+}
+.ak-header:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: .3;
+    z-index: -1;
+    background: linear-gradient(to right, #020202 0%, #000000 0%, #020202 100%);
+}
+.ak-navbar:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: .3;
+    z-index: -1;
+    background: linear-gradient(to right, #020202 0%, #000000 0%, #020202 100%);
+}
+.ak-nav-item a{
+    color: #ffffff!important;
+    font-weight: bold;
+}
+.ak-header-section{
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.ak-center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.ak-header-buttons a{
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+.ak-header-buttons a:hover{
+    color: #ffbd39;
+    background: #ffffff;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+.ak-center-div p{
+    font-size: 1.3rem;
+    padding: 10px 0 20px 0;
+    color: white;
+}
+.ak-center-div span{
+    color: #ffbd39;
+    font-size: 4rem;
+}
+
+/********************* about div css start **********************/
+.ak-about-main-div{
+    width: 100%;
+    height: auto;
+    background: black;
+    padding: 80px 10px 0 0;
+}
+.ak-about-txt-div {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+.ak-about-txt {
+    font-size: 6rem;
+    font-weight: bolder !important;
+    color: #1a1a1a;
+    text-align: center;
+}
+.ak-about-me-txt {
+    font-size: 3rem;
+    font-weight: bolder !important;
+    color: white;
+    margin-left: -250px;
+}
+.ak-title-heading {
+    font-weight: bold !important;
+    color: white;
+}
+.ak-about-main-div a {
+    border: 1px solid #ffbd39;
+    border-radius: 100px;
+    margin: 20px 0;
+    padding: 12px 35px;
+    background: #ffbd39;
+    outline: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+}
+.ak-about-main-div a:hover{
+    color: #ffbd39;
+    background: black;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+.ak-about-img {
+    width: 50vh;
+    height: 50vh;
+    background-image: url('../images/about-me.jpg');
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 30px;
+}
+/********************* abour div css end **********************/
